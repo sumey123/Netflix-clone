@@ -1,0 +1,34 @@
+div {
+  unicode-bidi: isolate;
+}
+.header-outer-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: transparent; */
+  background-color: rgb(20, 20, 20);
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+}
+.header-container {
+  padding: 1rem 4%;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header1 ul,
+.header2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 1.5rem;
+  cursor: pointer;
+}
